@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color :lightblue;
+    width: 100%;
+    height: 100%;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction:column;
+    object-fit: contain;
+}
+
+.searchForm{
+    margin-top: 20px;
+}
+
+.headText{
+    margin-top: 20px;
+}
+
+.pokeList{
+    list-style-type: none;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    gap: 20em;
+}
+
+a {
+    text-decoration: none;
+}
+
